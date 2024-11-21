@@ -1,0 +1,10 @@
+spring:
+  main:
+    web-application-type: none
+  application:
+    name: fc-hello-websocket-client
+  profiles:
+    active: local
+    group:
+      local: console-logging, low-level-logging
+      dev: file-logging, high-level-logging
